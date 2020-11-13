@@ -1,0 +1,6 @@
+node_modules
+.aws-sam
+src/package.json
+build
+credentials.json
+samconfig.toml
