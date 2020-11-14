@@ -1,0 +1,23 @@
+{
+  "name": "john-api",
+  "version": "1.0.0",
+  "description": "Random API for John Bogart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnBogart/john-api.git"
+  },
+  "author": "John Bogart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnBogart/john-api/issues"
+  },
+  "homepage": "https://github.com/JohnBogart/john-api#readme",
+  "devDependencies": {
+    "standard": "^16.0.2"
+  }
+}
