@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "sam local start-api",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "standard && mocha",
     "lint": "standard --fix",
     "prebuild": "cp package.json src/",
     "build": "sam build -t deploy/stacks/sam/template.yml",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/JohnBogart/john-api#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
     "standard": "^16.0.2"
   }
 }
