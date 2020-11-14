@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard --fix"
+    "lint": "standard --fix",
+    "prebuild": "cp package.json src/",
+    "build": "sam build -t deploy/stacks/sam/template.yml",
+    "postbuild": "rm src/package.json"
   },
   "repository": {
     "type": "git",
